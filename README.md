@@ -1,6 +1,6 @@
-# lk.cloud.meetup.k8s*
+# Private Cloud Discussion - Kubernetes on Your Local Machine
 
-This is to share cloud meetup demo artifacts and instructions.     
+This is to share cloud meetup demo artifacts and instructions to get an overview of docker, k8s and minikube.   
     
 **Prerequisites**
   
@@ -31,3 +31,7 @@ This is to share cloud meetup demo artifacts and instructions.
     chmod +x ./kubectl   
     sudo mv ./kubectl /usr/local/bin/kubectl
 ```
+**Demo Steps**
+1. [To package a tomcat application as a docker image](https://github.com/manjulaRathnayaka/lk.cloud.meetup.k8s/tree/master/docker)
+2. [To run k8s cluster in your local machine](https://github.com/manjulaRathnayaka/lk.cloud.meetup.k8s/tree/master/minikube)
+3. [To demonstrate rolling updates with zero down time](https://github.com/manjulaRathnayaka/lk.cloud.meetup.k8s/tree/master/k8s)
