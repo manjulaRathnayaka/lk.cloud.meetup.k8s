@@ -1,5 +1,3 @@
-# lk.cloud.meetup.k8s*
-
 This section contains information to package a tomcat web application as a docker image.
 
  DemoApp - source code to build the sample web application. To generate the source files, use *mvn archetype:generate -DgroupId=lk.cloud.meetup.k8s.demo -DartifactId=DemoApp -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false*
