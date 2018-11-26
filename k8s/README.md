@@ -1,6 +1,4 @@
-# lk.cloud.meetup.k8s*
-
-This section contains example commands to work with k8s.
+This section contains example commands to work with k8s to demonstrate k8s rolling update feature.
 
 To get details of the default k8s cluster, 
 ```bash
@@ -34,7 +32,7 @@ To roll out a change of the web application
 	watch -n 0.1 'kubectl get pods'
 	kubectl set image deployment/demo-web-app demo-web-app=manjula/lk.cloud.meetup.k8s.tomcat-app:2.0.0	
 ```
-To avoid failures during the deployment update due to server is not fully started 
+To avoid failures during the deployment update because the tomcat server is not completely started. 
 ```bash
 	kubectl get deployment demo-web-app -oyaml > deployment.yaml
 	update deployment.yaml with readinessProbe as below.
