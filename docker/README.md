@@ -2,9 +2,11 @@
 
 This section contains information to package a tomcat web application as a docker image.
 
-DemoApp - source code to build the sample web application. To generate the source files, use 'mvn archetype:generate -DgroupId=lk.cloud.meetup.k8s.demo -DartifactId=DemoApp -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false'
-DemoApp.war - sample war file which is accessible on tomcat as http://localhost:8080/DemoApp/
-Dockerfile - sample docker file to build a docker image.
+ DemoApp - source code to build the sample web application. To generate the source files, use *mvn archetype:generate -DgroupId=lk.cloud.meetup.k8s.demo -DartifactId=DemoApp -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false*
+
+ DemoApp.war - sample war file which is accessible on tomcat as http://localhost:8080/DemoApp/
+
+ Dockerfile - sample docker file to build a docker image.
 
 Sample docker images are pushed to Docker Hub in repository 'manjula/lk.cloud.meetup.k8s.tomcat-app:1.0.0'
 
